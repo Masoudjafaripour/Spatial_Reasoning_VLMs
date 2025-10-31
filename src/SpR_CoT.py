@@ -139,5 +139,5 @@ with open(out_path, "w") as f:
 
 print(f"💾 Saved detailed results to {out_path}")
 
-# Accuracy: 0.280 (28/100)
-# Saved detailed results to eval_results/qwen2.5vl_maze_results.json
+#  Accuracy: 0.340 (34/100)
+# 💾 Saved detailed results to eval_results/qwen2.5vl_maze_results_CoT.json

@@ -1,0 +1,602 @@
+[
+  {
+    "file": "maze_clean_dataset/json\\maze_0.json",
+    "gt": "D",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A.\nStep 1: The agent moves right, reaching point B.\nStep 2: The agent then moves left, reaching point C.\nStep 3: The agent moves right again, reaching point"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_1.json",
+    "gt": "C",
+    "pred": "D",
+    "raw_output": "Reasoning: The red agent starts at point D.\nStep 1: The agent goes down, moving from D to C.\nStep 2: The agent then goes right, moving from C to B.\nStep 3: The agent goes down"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_10.json",
+    "gt": "D",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A.\nStep 1: The agent moves left, reaching point B.\nStep 2: The agent then moves left again, reaching point C.\nStep 3: The agent goes down, reaching point"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_11.json",
+    "gt": "C",
+    "pred": "C",
+    "raw_output": "Reasoning: The red agent starts at point C.\nStep 1: The agent moves right, reaching point D.\nStep 2: The agent moves up, reaching point B.\nStep 3: The agent moves right, reaching point A."
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_12.json",
+    "gt": "C",
+    "pred": "C",
+    "raw_output": "Reasoning: The red agent starts at point C.\nStep 1: The agent moves up, reaching point D.\nStep 2: The agent then moves right, arriving at point B.\nStep 3: Finally, the agent goes down,"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_13.json",
+    "gt": "D",
+    "pred": "C",
+    "raw_output": "Reasoning: The red agent starts at point C.\nStep 1: The agent moves left, reaching point B.\nStep 2: The agent moves down, reaching point D.\nStep 3: The agent moves up, returning to point C"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_14.json",
+    "gt": "C",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A.\nStep 1: The agent goes down, moving from A to B.\nStep 2: The agent goes up, moving from B to C.\nStep 3: The agent goes right,"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_15.json",
+    "gt": "B",
+    "pred": "C",
+    "raw_output": "Reasoning: The red agent starts at point C.\nStep 1: The agent goes down, moving from C to B.\nStep 2: The agent continues down, moving from B to A.\nStep 3: The agent then moves left"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_16.json",
+    "gt": "A",
+    "pred": "B",
+    "raw_output": "Reasoning: The red agent starts at point B.\nStep 1: Go right - The red agent moves from B to C.\nStep 2: Go down - The red agent moves from C to D.\nStep 3: Go right -"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_17.json",
+    "gt": "B",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A.\nStep 1: The agent moves right, reaching point B.\nStep 2: The agent then moves right again, arriving at point C.\nStep 3: Next, the agent goes up"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_18.json",
+    "gt": "A",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A.\nStep 1: The agent moves up, reaching point B.\nStep 2: The agent then moves up again, arriving at point C.\nStep 3: Next, the agent moves left"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_19.json",
+    "gt": "B",
+    "pred": "B",
+    "raw_output": "Reasoning: The red agent starts at point B.\nStep 1: The agent goes down, moving from B to C.\nStep 2: The agent then goes left, moving from C to D.\nStep 3: Finally, the agent"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_2.json",
+    "gt": "D",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A, which is located at the bottom center of the maze.\nStep 1: The agent goes down, moving from point A to point B.\nStep 2: The agent then goes right, moving"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_20.json",
+    "gt": "B",
+    "pred": "C",
+    "raw_output": "Reasoning: The red agent starts at point C.\nStep 1: The agent moves up from C to D.\nStep 2: The agent moves up from D to B.\nStep 3: The agent moves left from B to A."
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_21.json",
+    "gt": "B",
+    "pred": "C",
+    "raw_output": "Reasoning: The red agent starts at point C.\nStep 1: The agent goes up, moving from C to A.\nStep 2: The agent then goes down, moving from A to B.\nStep 3: The agent goes right"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_22.json",
+    "gt": "C",
+    "pred": "C",
+    "raw_output": "Reasoning: The red agent starts at point C.\nStep 1: The agent goes down, moving from C to D.\nStep 2: The agent then goes down again, moving from D to B.\nStep 3: Next, the"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_23.json",
+    "gt": "A",
+    "pred": "B",
+    "raw_output": "Reasoning: The red agent starts at point B.\nStep 1: The agent goes up, moving from B to C.\nStep 2: The agent then goes down, moving from C to A.\nStep 3: The agent goes right"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_24.json",
+    "gt": "B",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A.\nStep 1: The agent moves right, reaching point B.\nStep 2: The agent then moves up, reaching point C.\nStep 3: Finally, the agent moves down, ending"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_25.json",
+    "gt": "D",
+    "pred": "B",
+    "raw_output": "Reasoning: The red agent starts at point B.\nStep 1: The agent moves left from B, reaching D.\nStep 2: The agent then moves left from D, reaching A.\nStep 3: Finally, the agent moves right"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_26.json",
+    "gt": "A",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A.\nStep 1: The agent moves right, reaching point B.\nStep 2: The agent moves right again, now at point C.\nStep 3: The agent moves up, ending at"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_27.json",
+    "gt": "B",
+    "pred": "B",
+    "raw_output": "Reasoning: The red agent starts at point B.\nStep 1: The agent moves left, reaching point D.\nStep 2: The agent then goes down, moving from D to C.\nStep 3: Next, the agent goes up"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_28.json",
+    "gt": "A",
+    "pred": "D",
+    "raw_output": "Reasoning: The red agent starts at point D.\nStep 1: The agent moves right, reaching point B.\nStep 2: The agent moves right again, reaching point A.\nStep 3: The agent moves up, reaching point C"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_29.json",
+    "gt": "C",
+    "pred": "D",
+    "raw_output": "Reasoning: The red agent starts at point D.\nStep 1: Go right - The red agent moves from D to C.\nStep 2: Go left - The red agent moves from C to B.\nStep 3: Go down -"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_3.json",
+    "gt": "D",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A.\nStep 1: The agent moves right, reaching point B.\nStep 2: The agent moves right again, reaching point C.\nStep 3: The agent moves right once more, reaching"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_30.json",
+    "gt": "A",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A.\nStep 1: The agent goes down, moving from A to B.\nStep 2: The agent goes up, moving from B to C.\nStep 3: The agent goes right,"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_31.json",
+    "gt": "D",
+    "pred": null,
+    "raw_output": "Reasoning: The red agent starts at the bottom-left corner of the maze.\nStep 1: The agent moves right, reaching the top edge of the maze.\nStep 2: The agent then moves left, returning to the middle section of the"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_32.json",
+    "gt": "A",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A.\nStep 1: The agent moves left, reaching point D.\nStep 2: The agent then moves down, arriving at point C.\nStep 3: Finally, the agent moves right,"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_33.json",
+    "gt": "D",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A.\nStep 1: The agent moves up, reaching point C.\nStep 2: The agent then moves up again, reaching point D.\nStep 3: Finally, the agent moves left,"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_34.json",
+    "gt": "C",
+    "pred": "C",
+    "raw_output": "Reasoning: The red agent starts at point C.\nStep 1: The agent goes up, moving from C to D.\nStep 2: The agent then goes right, moving from D to B.\nStep 3: The agent goes up"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_35.json",
+    "gt": "D",
+    "pred": "D",
+    "raw_output": "Reasoning: The red agent starts at point D.\nStep 1: The agent moves left from D, reaching point B.\nStep 2: The agent then moves left again from B, reaching point C.\nStep 3: The agent goes"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_36.json",
+    "gt": "A",
+    "pred": "D",
+    "raw_output": "Reasoning: The red agent starts at point D.\nStep 1: The agent moves up from D to B.\nStep 2: The agent moves up from B to A.\nStep 3: The agent moves down from A to C."
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_37.json",
+    "gt": "A",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at the top-left corner of the maze, labeled as point A.\nStep 1: The agent moves up to point B.\nStep 2: The agent then moves down to point C.\nStep 3:"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_38.json",
+    "gt": "B",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A.\nStep 1: The agent goes down, moving from A to B.\nStep 2: The agent then goes right, moving from B to C.\nStep 3: The agent goes left"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_39.json",
+    "gt": "D",
+    "pred": "C",
+    "raw_output": "Reasoning: The red agent starts at point C.\nStep 1: The agent goes down, moving from C to D.\nStep 2: The agent goes down again, moving from D to A.\nStep 3: The agent goes left"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_4.json",
+    "gt": "D",
+    "pred": "D",
+    "raw_output": "Reasoning: The red agent starts at point D.\nStep 1: The agent moves left, reaching point B.\nStep 2: The agent then moves left again, reaching point A.\nStep 3: Finally, the agent moves up,"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_40.json",
+    "gt": "D",
+    "pred": "D",
+    "raw_output": "Reasoning: The red agent starts at point D.\nStep 1: The agent moves right, reaching point B.\nStep 2: The agent then goes down, moving from B to C.\nStep 3: Next, the agent moves right"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_41.json",
+    "gt": "A",
+    "pred": "B",
+    "raw_output": "Reasoning: The red agent starts at point B.\nStep 1: The agent moves left, reaching point A.\nStep 2: The agent then moves down, reaching point C.\nStep 3: The agent moves up, returning to point"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_42.json",
+    "gt": "D",
+    "pred": "B",
+    "raw_output": "Reasoning: The red agent starts at point B.\nStep 1: The agent moves left from B, reaching C.\nStep 2: The agent then moves right from C, reaching D.\nStep 3: Next, the agent moves right"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_43.json",
+    "gt": "D",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A.\nStep 1: The agent moves right, reaching point B.\nStep 2: The agent then moves left, reaching point C.\nStep 3: The agent goes down, reaching point D"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_44.json",
+    "gt": "D",
+    "pred": "C",
+    "raw_output": "Reasoning: The red agent starts at point C.\nStep 1: The agent goes down, moving from C to B.\nStep 2: The agent then goes left, moving from B to A.\nStep 3: The agent goes up"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_45.json",
+    "gt": "A",
+    "pred": "C",
+    "raw_output": "Reasoning: The red agent starts at point C.\nStep 1: The agent moves right, reaching point B.\nStep 2: The agent then moves left, arriving at point A.\nStep 3: Finally, the agent goes up,"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_46.json",
+    "gt": "C",
+    "pred": "C",
+    "raw_output": "Reasoning: The red agent starts at point C.\nStep 1: The agent moves left, reaching point D.\nStep 2: The agent then moves right, arriving at point B.\nStep 3: Next, the agent goes up,"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_47.json",
+    "gt": "B",
+    "pred": "C",
+    "raw_output": "Reasoning: The red agent starts at point C.\nStep 1: The agent goes down, moving from C to D.\nStep 2: The agent then goes up, moving from D back to C.\nStep 3: The agent goes"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_48.json",
+    "gt": "B",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A.\nStep 1: The agent goes down, moving from A to B.\nStep 2: The agent then goes right, moving from B to C.\nStep 3: The agent goes down"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_49.json",
+    "gt": "A",
+    "pred": "B",
+    "raw_output": "Reasoning: The red agent starts at point B.\nStep 1: The agent moves up, reaching point C.\nStep 2: The agent then moves left, ending up at point D.\nStep 3: Finally, the agent moves right"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_5.json",
+    "gt": "D",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A.\nStep 1: The agent goes up, moving from A to B.\nStep 2: The agent then goes right, moving from B to C.\nStep 3: The agent goes down"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_50.json",
+    "gt": "A",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A.\nStep 1: The agent goes up, moving from A to B.\nStep 2: The agent then goes left, moving from B to C.\nStep 3: The agent continues left"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_51.json",
+    "gt": "D",
+    "pred": "B",
+    "raw_output": "Reasoning: The red agent starts at point B.\nStep 1: The agent goes down, moving from B to A.\nStep 2: The agent then goes right, moving from A to C.\nStep 3: The agent continues right"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_52.json",
+    "gt": "A",
+    "pred": "D",
+    "raw_output": "Reasoning: The red agent starts at point D.\nStep 1: The agent goes down, moving from D to B.\nStep 2: The agent goes up, moving from B to C.\nStep 3: The agent goes right,"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_53.json",
+    "gt": "D",
+    "pred": "C",
+    "raw_output": "Reasoning: The red agent starts at point C.\nStep 1: The red agent goes down, moving from C to B.\nStep 2: The red agent goes up, moving from B to A.\nStep 3: The red agent"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_54.json",
+    "gt": "D",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A.\nStep 1: The agent goes down, moving from point A to point B.\nStep 2: The agent then goes left, moving from point B to point C.\nStep 3:"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_55.json",
+    "gt": "B",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A.\nStep 1: The agent goes left, moving from A to B.\nStep 2: The agent then goes up, moving from B to C.\nStep 3: The agent goes up"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_56.json",
+    "gt": "B",
+    "pred": "B",
+    "raw_output": "Reasoning: The red agent starts at point B.\nStep 1: The agent moves up, reaching point C.\nStep 2: The agent then moves down, returning to point B.\nStep 3: Finally, the agent moves right,"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_57.json",
+    "gt": "D",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A.\nStep 1: The agent moves up, reaching point B.\nStep 2: The agent moves up again, reaching point C.\nStep 3: The agent moves right, ending at point"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_58.json",
+    "gt": "A",
+    "pred": "D",
+    "raw_output": "Reasoning: The red agent starts at point D.\nStep 1: The agent goes left, moving from D to C.\nStep 2: The agent then goes down, moving from C to B.\nStep 3: The agent goes left"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_59.json",
+    "gt": "B",
+    "pred": "B",
+    "raw_output": "Reasoning: The red agent starts at point B.\nStep 1: The agent goes up, moving from B to C.\nStep 2: The agent then goes left, moving from C to A.\nStep 3: The agent goes up"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_6.json",
+    "gt": "A",
+    "pred": "B",
+    "raw_output": "Reasoning: The red agent starts at point B.\nStep 1: The agent moves up, reaching point A.\nStep 2: The agent then moves right, arriving at point C.\nStep 3: Finally, the agent goes down,"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_60.json",
+    "gt": "B",
+    "pred": "B",
+    "raw_output": "Reasoning: The red agent starts at point B.\nStep 1: The agent goes up, moving from B to C.\nStep 2: The agent goes up again, moving from C to D.\nStep 3: The agent goes left"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_61.json",
+    "gt": "D",
+    "pred": "D",
+    "raw_output": "Reasoning: The red agent starts at point D.\nStep 1: The agent goes down, moving from D to A.\nStep 2: The agent then goes left, moving from A to B.\nStep 3: The agent goes down"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_62.json",
+    "gt": "A",
+    "pred": null,
+    "raw_output": "Reasoning: The red agent starts at the bottom-left corner of the maze, marked by a red dot.\nStep 1: The agent moves left, reaching the bottom edge of the maze.\nStep 2: The agent then moves up, going"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_63.json",
+    "gt": "C",
+    "pred": "D",
+    "raw_output": "Reasoning: The red agent starts at point D.\nStep 1: The agent moves right, reaching point C.\nStep 2: The agent then moves left, returning to point D.\nStep 3: Finally, the agent moves up,"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_64.json",
+    "gt": "C",
+    "pred": "D",
+    "raw_output": "Reasoning: The red agent starts at point D.\nStep 1: The agent moves right, reaching point C.\nStep 2: The agent then moves up, arriving at point B.\nStep 3: Finally, the agent moves right,"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_65.json",
+    "gt": "C",
+    "pred": "D",
+    "raw_output": "Reasoning: The red agent starts at point D.\nStep 1: The agent moves left, reaching point B.\nStep 2: The agent moves down, reaching point A.\nStep 3: The agent moves right, reaching point C."
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_66.json",
+    "gt": "D",
+    "pred": "B",
+    "raw_output": "Reasoning: The red agent starts at point B.\nStep 1: The agent moves right, reaching point C.\nStep 2: The agent moves up, reaching point D.\nStep 3: The agent moves down, returning to point C"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_67.json",
+    "gt": "C",
+    "pred": "B",
+    "raw_output": "Reasoning: The red agent starts at point B.\nStep 1: The agent moves right, reaching point C.\nStep 2: The agent then goes down, moving from C to D.\nStep 3: Next, the agent turns left"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_68.json",
+    "gt": "C",
+    "pred": "C",
+    "raw_output": "Reasoning: The red agent starts at point C.\nStep 1: The agent moves left, reaching point D.\nStep 2: The agent moves right, returning to point C.\nStep 3: The agent moves up, reaching point B"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_69.json",
+    "gt": "A",
+    "pred": "D",
+    "raw_output": "Reasoning: The red agent starts at point D.\nStep 1: The agent moves right, reaching point B.\nStep 2: The agent then goes down, moving from B to C.\nStep 3: Next, the agent moves right"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_7.json",
+    "gt": "C",
+    "pred": "D",
+    "raw_output": "Reasoning: The red agent starts at point D.\nStep 1: The agent moves right, reaching point B.\nStep 2: The agent moves right again, reaching point C.\nStep 3: The agent moves up, reaching point A"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_70.json",
+    "gt": "A",
+    "pred": "C",
+    "raw_output": "Reasoning: The red agent starts at point C.\nStep 1: The agent moves right, reaching point B.\nStep 2: The agent moves right again, reaching point D.\nStep 3: The agent moves down, reaching point A"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_71.json",
+    "gt": "D",
+    "pred": "D",
+    "raw_output": "Reasoning: The red agent starts at point D.\nStep 1: The agent goes down, moving from D to C.\nStep 2: The agent then goes up, moving from C to B.\nStep 3: Next, the agent"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_72.json",
+    "gt": "B",
+    "pred": "B",
+    "raw_output": "Reasoning: The red agent starts at point B.\nStep 1: The agent goes down, moving from B to C.\nStep 2: The agent then goes left, moving from C to D.\nStep 3: The agent goes up"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_73.json",
+    "gt": "C",
+    "pred": "C",
+    "raw_output": "Reasoning: The red agent starts at point C.\nStep 1: The agent moves left, reaching point B.\nStep 2: The agent then goes down, moving from B to A.\nStep 3: Next, the agent goes down"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_74.json",
+    "gt": "B",
+    "pred": "B",
+    "raw_output": "Reasoning: The red agent starts at point B.\nStep 1: The agent moves up, reaching point A.\nStep 2: The agent then moves right, arriving at point C.\nStep 3: Finally, the agent moves left,"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_75.json",
+    "gt": "C",
+    "pred": "D",
+    "raw_output": "Reasoning: The red agent starts at point D.\nStep 1: The agent moves left, reaching point B.\nStep 2: The agent then moves up, arriving at point C.\nStep 3: Next, the agent goes left,"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_76.json",
+    "gt": "C",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A.\nStep 1: The agent moves up from A to B.\nStep 2: The agent then moves right from B to C.\nStep 3: Finally, the agent moves up from C"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_77.json",
+    "gt": "A",
+    "pred": "D",
+    "raw_output": "Reasoning: The red agent starts at point D.\nStep 1: The agent moves right, reaching point B.\nStep 2: The agent moves right again, now at point A.\nStep 3: The agent moves left, returning to"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_78.json",
+    "gt": "A",
+    "pred": "C",
+    "raw_output": "Reasoning: The red agent starts at point C.\nStep 1: The agent moves right, reaching point A.\nStep 2: The agent then moves left, returning to point C.\nStep 3: The agent moves right again, reaching"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_79.json",
+    "gt": "A",
+    "pred": "B",
+    "raw_output": "Reasoning: The red agent starts at point B.\nStep 1: The agent goes left, moving from B to A.\nStep 2: The agent then goes down, moving from A to C.\nStep 3: The agent goes up"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_8.json",
+    "gt": "A",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A.\nStep 1: The agent moves right, reaching point B.\nStep 2: The agent then goes down, moving from B to C.\nStep 3: The agent goes up, returning"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_80.json",
+    "gt": "D",
+    "pred": "C",
+    "raw_output": "Reasoning: The red agent starts at point C.\nStep 1: The agent moves right, reaching point D.\nStep 2: The agent then goes down, moving from D to B.\nStep 3: Finally, the agent goes down"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_81.json",
+    "gt": "B",
+    "pred": "D",
+    "raw_output": "Reasoning: The red agent starts at point D.\nStep 1: The agent moves right from D to C.\nStep 2: The agent then moves right from C to B.\nStep 3: The agent moves up from B to A"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_82.json",
+    "gt": "B",
+    "pred": "D",
+    "raw_output": "Reasoning: The red agent starts at point D.\nStep 1: The agent goes up, moving from D to B.\nStep 2: The agent then goes right, moving from B to C.\nStep 3: The agent goes down"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_83.json",
+    "gt": "A",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A.\nStep 1: The agent moves right, reaching point B.\nStep 2: The agent moves up, reaching point C.\nStep 3: The agent moves right, reaching point D."
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_84.json",
+    "gt": "B",
+    "pred": "B",
+    "raw_output": "Reasoning: The red agent starts at point B.\nStep 1: The agent goes down, moving from B to C.\nStep 2: The agent then goes up, moving from C to D.\nStep 3: Finally, the agent"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_85.json",
+    "gt": "D",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A.\nStep 1: The agent goes down, moving from A to B.\nStep 2: The agent then goes left, moving from B to C.\nStep 3: The agent continues left"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_86.json",
+    "gt": "C",
+    "pred": "D",
+    "raw_output": "Reasoning: The red agent starts at point D.\nStep 1: The agent moves left, reaching point B.\nStep 2: The agent then moves right, arriving at point A.\nStep 3: Finally, the agent goes down twice"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_87.json",
+    "gt": "A",
+    "pred": "D",
+    "raw_output": "Reasoning: The red agent starts at point D.\nStep 1: The agent moves right, reaching point A.\nStep 2: The agent then moves left, reaching point B.\nStep 3: The agent moves right again, returning to"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_88.json",
+    "gt": "D",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A.\nStep 1: The agent moves up, reaching point B.\nStep 2: The agent moves up again, reaching point C.\nStep 3: The agent moves up once more, reaching"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_89.json",
+    "gt": "A",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A.\nStep 1: The agent moves left, reaching point B.\nStep 2: The agent then moves right, returning to point B.\nStep 3: The agent moves left again, reaching"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_9.json",
+    "gt": "B",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A.\nStep 1: The agent moves right, reaching point B.\nStep 2: The agent then moves left, returning to point A.\nStep 3: The agent goes up, moving from"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_90.json",
+    "gt": "C",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A.\nStep 1: The agent moves left, reaching point B.\nStep 2: The agent then moves left again, arriving at point C.\nStep 3: Finally, the agent goes down"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_91.json",
+    "gt": "D",
+    "pred": "B",
+    "raw_output": "Reasoning: The red agent starts at point B.\nStep 1: The agent moves left from B, reaching C.\nStep 2: The agent then moves up from C, reaching A.\nStep 3: Finally, the agent moves up"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_92.json",
+    "gt": "B",
+    "pred": "B",
+    "raw_output": "Reasoning: The red agent starts at point B.\nStep 1: The agent moves right, reaching point C.\nStep 2: The agent then goes down, moving from C to D.\nStep 3: Next, the agent moves right"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_93.json",
+    "gt": "C",
+    "pred": "B",
+    "raw_output": "Reasoning: The red agent starts at point B.\nStep 1: The agent goes down, moving from B to C.\nStep 2: The agent then goes left, moving from C to A.\nStep 3: The agent goes right"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_94.json",
+    "gt": "B",
+    "pred": "B",
+    "raw_output": "Reasoning: The red agent starts at point B.\nStep 1: The agent goes down, moving from B to A.\nStep 2: The agent then goes down again, moving from A to D.\nStep 3: The agent then"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_95.json",
+    "gt": "A",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A.\nStep 1: The agent moves left, reaching point B.\nStep 2: The agent then moves right, arriving at point C.\nStep 3: Finally, the agent goes down,"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_96.json",
+    "gt": "C",
+    "pred": "D",
+    "raw_output": "Reasoning: The red agent starts at point D.\nStep 1: The agent goes down, moving from D to C.\nStep 2: The agent then goes up, moving from C to B.\nStep 3: The agent goes down"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_97.json",
+    "gt": "D",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A.\nStep 1: The agent moves left, reaching point D.\nStep 2: The agent moves up, reaching point C.\nStep 3: The agent moves right, reaching point B."
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_98.json",
+    "gt": "C",
+    "pred": "C",
+    "raw_output": "Reasoning: The red agent starts at point C.\nStep 1: The agent moves left, reaching point B.\nStep 2: The agent moves down, reaching point D.\nStep 3: The agent moves down again, returning to point"
+  },
+  {
+    "file": "maze_clean_dataset/json\\maze_99.json",
+    "gt": "A",
+    "pred": "A",
+    "raw_output": "Reasoning: The red agent starts at point A.\nStep 1: The agent goes up, moving from A to B.\nStep 2: The agent then goes left, moving from B to C.\nStep 3: The agent goes up"
+  }
+]
