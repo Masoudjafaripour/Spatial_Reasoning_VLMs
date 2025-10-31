@@ -33,7 +33,7 @@ Enhance spatial reasoning capabilities in Vision-Language Models (VLMs) using **
 | Method                         | Accuracy           | Notes                                     |
 | ------------------------------ | ------------------ | ----------------------------------------- |
 | Naive Prompt                   | **0.280 (28/100)** | Simple Q&A style                          |
-| CoT Prompt + Temp/Top-p tuning | **0.340 (34/100)** | Structured reasoning, more stable outputs |
+| CoT Prompt + no Temp. tuning   | **0.340 (34/100)** | Structured reasoning, more stable outputs |
 
 💾 Results saved in:
 
@@ -52,6 +52,7 @@ Enhance spatial reasoning capabilities in Vision-Language Models (VLMs) using **
 ### 🚀 Next Steps
 
 * Integrate **LMQL** for structured CoT/VoT control.
+* Add temperature and top-p to decoding
 * Experiment with **LLaVA** and **Qwen2-VL 7B** for higher reasoning fidelity.
 * Explore **visual reasoning trace visualization** (Visualization-of-Thought).
 * Extend dataset to **3D layouts** and **temporal sequences** for richer spatial grounding.
