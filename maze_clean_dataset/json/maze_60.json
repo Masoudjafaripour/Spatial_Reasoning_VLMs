@@ -1,0 +1,27 @@
+{
+  "image": "maze_clean_dataset/images/maze_60.png",
+  "start": [
+    4,
+    1
+  ],
+  "actions": "Go up. Go up. Go left. Go up. Go left. Go left. Go down.",
+  "answer": "B",
+  "goals": {
+    "A": [
+      2,
+      2
+    ],
+    "B": [
+      3,
+      0
+    ],
+    "C": [
+      1,
+      4
+    ],
+    "D": [
+      1,
+      0
+    ]
+  }
+}
