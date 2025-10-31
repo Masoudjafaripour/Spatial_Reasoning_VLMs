@@ -87,6 +87,8 @@ def get_prediction(image_path, action_seq):
         output = model.generate(
             **inputs,
             max_new_tokens=MAX_NEW_TOKENS,
+            temperature=0.2,      # ↓ makes reasoning more deterministic
+            top_p=0.9,            # ↓ keeps coherent reasoning while allowing diversity
             use_cache=False,
         )
 
@@ -139,5 +141,5 @@ with open(out_path, "w") as f:
 
 print(f"💾 Saved detailed results to {out_path}")
 
-#  Accuracy: 0.340 (34/100)
+#  Accuracy: 0.340 (34/100) with adjustimg temperature and top_p
 # 💾 Saved detailed results to eval_results/qwen2.5vl_maze_results_CoT.json
