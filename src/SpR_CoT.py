@@ -4,6 +4,9 @@ from PIL import Image
 import torch
 from transformers import AutoProcessor, AutoModelForVision2Seq, BitsAndBytesConfig
 
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+
 # ---------------- CONFIG ----------------
 MODEL_ID = "Qwen/Qwen2.5-VL-3B-Instruct"
 DATA_DIR = "maze_clean_dataset/json"
