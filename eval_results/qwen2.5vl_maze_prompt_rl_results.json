@@ -1,0 +1,819 @@
+{
+  "accuracy": 0.29,
+  "prompt_q": {
+    "base": 0.2857142857142857,
+    "step_by_step": 0.12500000000000003,
+    "simulate_actions": 0.3200000000000001,
+    "coordinate_reasoning": 0.25,
+    "self_check": 0.0
+  },
+  "prompt_counts": {
+    "base": 7,
+    "step_by_step": 8,
+    "simulate_actions": 75,
+    "coordinate_reasoning": 8,
+    "self_check": 2
+  },
+  "results": [
+    {
+      "file": "maze_clean_dataset/json\\maze_0.json",
+      "gt": "D",
+      "pred": "A",
+      "prompt_action": "base",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_1.json",
+      "gt": "C",
+      "pred": "C",
+      "prompt_action": "simulate_actions",
+      "reward": 1.0,
+      "raw_output": "The answer is [C]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_10.json",
+      "gt": "D",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_11.json",
+      "gt": "C",
+      "pred": "A",
+      "prompt_action": "base",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_12.json",
+      "gt": "C",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_13.json",
+      "gt": "D",
+      "pred": "D",
+      "prompt_action": "simulate_actions",
+      "reward": 1.0,
+      "raw_output": "The answer is [D]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_14.json",
+      "gt": "C",
+      "pred": "A",
+      "prompt_action": "coordinate_reasoning",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_15.json",
+      "gt": "B",
+      "pred": "A",
+      "prompt_action": "base",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_16.json",
+      "gt": "A",
+      "pred": "B",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is [B]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_17.json",
+      "gt": "B",
+      "pred": "C",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is [C]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_18.json",
+      "gt": "A",
+      "pred": "A",
+      "prompt_action": "step_by_step",
+      "reward": 1.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_19.json",
+      "gt": "B",
+      "pred": "A",
+      "prompt_action": "step_by_step",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_2.json",
+      "gt": "D",
+      "pred": "A",
+      "prompt_action": "step_by_step",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_20.json",
+      "gt": "B",
+      "pred": "A",
+      "prompt_action": "step_by_step",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_21.json",
+      "gt": "B",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_22.json",
+      "gt": "C",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_23.json",
+      "gt": "A",
+      "pred": "B",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is [B]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_24.json",
+      "gt": "B",
+      "pred": "A",
+      "prompt_action": "step_by_step",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_25.json",
+      "gt": "D",
+      "pred": "A",
+      "prompt_action": "coordinate_reasoning",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_26.json",
+      "gt": "A",
+      "pred": "B",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is [B]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_27.json",
+      "gt": "B",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_28.json",
+      "gt": "A",
+      "pred": "A",
+      "prompt_action": "coordinate_reasoning",
+      "reward": 1.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_29.json",
+      "gt": "C",
+      "pred": "C",
+      "prompt_action": "simulate_actions",
+      "reward": 1.0,
+      "raw_output": "The answer is [C]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_3.json",
+      "gt": "D",
+      "pred": "A",
+      "prompt_action": "coordinate_reasoning",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_30.json",
+      "gt": "A",
+      "pred": "D",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is [D]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_31.json",
+      "gt": "D",
+      "pred": "A",
+      "prompt_action": "coordinate_reasoning",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_32.json",
+      "gt": "A",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 1.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_33.json",
+      "gt": "D",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_34.json",
+      "gt": "C",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_35.json",
+      "gt": "D",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_36.json",
+      "gt": "A",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 1.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_37.json",
+      "gt": "A",
+      "pred": "B",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is [B]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_38.json",
+      "gt": "B",
+      "pred": "D",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is [D]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_39.json",
+      "gt": "D",
+      "pred": "B",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is [B]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_4.json",
+      "gt": "D",
+      "pred": "B",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is [B]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_40.json",
+      "gt": "D",
+      "pred": "A",
+      "prompt_action": "step_by_step",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_41.json",
+      "gt": "A",
+      "pred": "B",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is [B]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_42.json",
+      "gt": "D",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_43.json",
+      "gt": "D",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_44.json",
+      "gt": "D",
+      "pred": "A",
+      "prompt_action": "coordinate_reasoning",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_45.json",
+      "gt": "A",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 1.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_46.json",
+      "gt": "C",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_47.json",
+      "gt": "B",
+      "pred": "D",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is [D]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_48.json",
+      "gt": "B",
+      "pred": "D",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is [D]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_49.json",
+      "gt": "A",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 1.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_5.json",
+      "gt": "D",
+      "pred": "D",
+      "prompt_action": "simulate_actions",
+      "reward": 1.0,
+      "raw_output": "The answer is [D]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_50.json",
+      "gt": "A",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 1.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_51.json",
+      "gt": "D",
+      "pred": "D",
+      "prompt_action": "simulate_actions",
+      "reward": 1.0,
+      "raw_output": "The answer is [D]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_52.json",
+      "gt": "A",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 1.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_53.json",
+      "gt": "D",
+      "pred": "A",
+      "prompt_action": "step_by_step",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_54.json",
+      "gt": "D",
+      "pred": "A",
+      "prompt_action": "coordinate_reasoning",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_55.json",
+      "gt": "B",
+      "pred": "C",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is [C]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_56.json",
+      "gt": "B",
+      "pred": "D",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is [D]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_57.json",
+      "gt": "D",
+      "pred": "B",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is [B]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_58.json",
+      "gt": "A",
+      "pred": "B",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is [B]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_59.json",
+      "gt": "B",
+      "pred": "B",
+      "prompt_action": "simulate_actions",
+      "reward": 1.0,
+      "raw_output": "The answer is [B]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_6.json",
+      "gt": "A",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 1.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_60.json",
+      "gt": "B",
+      "pred": "A",
+      "prompt_action": "base",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_61.json",
+      "gt": "D",
+      "pred": "B",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is [B]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_62.json",
+      "gt": "A",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 1.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_63.json",
+      "gt": "C",
+      "pred": "A",
+      "prompt_action": "self_check",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_64.json",
+      "gt": "C",
+      "pred": "C",
+      "prompt_action": "simulate_actions",
+      "reward": 1.0,
+      "raw_output": "The answer is [C]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_65.json",
+      "gt": "C",
+      "pred": "D",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is [D]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_66.json",
+      "gt": "D",
+      "pred": "B",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is [B]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_67.json",
+      "gt": "C",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_68.json",
+      "gt": "C",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_69.json",
+      "gt": "A",
+      "pred": "B",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is [B]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_7.json",
+      "gt": "C",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_70.json",
+      "gt": "A",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 1.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_71.json",
+      "gt": "D",
+      "pred": "C",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is [C]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_72.json",
+      "gt": "B",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_73.json",
+      "gt": "C",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_74.json",
+      "gt": "B",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_75.json",
+      "gt": "C",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_76.json",
+      "gt": "C",
+      "pred": "C",
+      "prompt_action": "simulate_actions",
+      "reward": 1.0,
+      "raw_output": "The answer is [C]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_77.json",
+      "gt": "A",
+      "pred": "B",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is [B]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_78.json",
+      "gt": "A",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 1.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_79.json",
+      "gt": "A",
+      "pred": "A",
+      "prompt_action": "base",
+      "reward": 1.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_8.json",
+      "gt": "A",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 1.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_80.json",
+      "gt": "D",
+      "pred": "A",
+      "prompt_action": "step_by_step",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_81.json",
+      "gt": "B",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_82.json",
+      "gt": "B",
+      "pred": "B",
+      "prompt_action": "simulate_actions",
+      "reward": 1.0,
+      "raw_output": "The answer is [B]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_83.json",
+      "gt": "A",
+      "pred": "A",
+      "prompt_action": "coordinate_reasoning",
+      "reward": 1.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_84.json",
+      "gt": "B",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_85.json",
+      "gt": "D",
+      "pred": "D",
+      "prompt_action": "simulate_actions",
+      "reward": 1.0,
+      "raw_output": "The answer is [D]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_86.json",
+      "gt": "C",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_87.json",
+      "gt": "A",
+      "pred": "C",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is [C]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_88.json",
+      "gt": "D",
+      "pred": "D",
+      "prompt_action": "simulate_actions",
+      "reward": 1.0,
+      "raw_output": "The answer is [D]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_89.json",
+      "gt": "A",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 1.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_9.json",
+      "gt": "B",
+      "pred": "A",
+      "prompt_action": "self_check",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_90.json",
+      "gt": "C",
+      "pred": "C",
+      "prompt_action": "simulate_actions",
+      "reward": 1.0,
+      "raw_output": "The answer is [C]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_91.json",
+      "gt": "D",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_92.json",
+      "gt": "B",
+      "pred": "A",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_93.json",
+      "gt": "C",
+      "pred": "B",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is [B]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_94.json",
+      "gt": "B",
+      "pred": "A",
+      "prompt_action": "base",
+      "reward": 0.0,
+      "raw_output": "The answer is A."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_95.json",
+      "gt": "A",
+      "pred": "B",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is [B]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_96.json",
+      "gt": "C",
+      "pred": "D",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is [D]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_97.json",
+      "gt": "D",
+      "pred": "B",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is [B]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_98.json",
+      "gt": "C",
+      "pred": "B",
+      "prompt_action": "simulate_actions",
+      "reward": 0.0,
+      "raw_output": "The answer is [B]."
+    },
+    {
+      "file": "maze_clean_dataset/json\\maze_99.json",
+      "gt": "A",
+      "pred": "A",
+      "prompt_action": "base",
+      "reward": 1.0,
+      "raw_output": "The answer is A."
+    }
+  ]
+}

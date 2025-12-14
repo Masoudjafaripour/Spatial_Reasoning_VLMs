@@ -10,10 +10,10 @@ from transformers import AutoProcessor, AutoModelForVision2Seq, BitsAndBytesConf
 
 # ---------------- CONFIG ----------------
 MODEL_ID = "Qwen/Qwen2.5-VL-3B-Instruct"
-# DATA_DIR = "maze_clean_dataset/json"
+DATA_DIR = "maze_clean_dataset/json"
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(BASE_DIR, "maze_clean_dataset", "json")
+# BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+# DATA_DIR = os.path.join(BASE_DIR, "maze_clean_dataset", "json")
 
 MAX_NEW_TOKENS = 50
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
